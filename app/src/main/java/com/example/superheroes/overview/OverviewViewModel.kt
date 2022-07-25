@@ -20,7 +20,7 @@ class OverviewViewModel : ViewModel() {
     private val _photoUrl = MutableLiveData<String>()
     val photoUrl: LiveData<String> = _photoUrl
 
-    var increment = 0
+    private var increment = 0
 
     /**
      * Call getMarsPhotos() on init so we can display status immediately.
